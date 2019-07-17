@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.container-fluid {
+	background-image: url(space.jpg);
+	background-size: contain;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+#ship {
+	max-width: 150px;
+	transition: all .2s ease-in-out;
+}
+
+#ship:hover { 
+	transform: scale(1.1); 
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	align-self: center;
+	width: 150px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
