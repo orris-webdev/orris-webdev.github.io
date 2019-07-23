@@ -10,6 +10,11 @@
 	border-radius: 10%
 }
 
+@media only screen and (max-width: 800px) {
+	.container {
+		width: 100%;
+}
+
 .image {
 	padding: 20px 0px;
 }
