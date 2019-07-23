@@ -10,7 +10,7 @@
 	border-radius: 10%
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 479px) {
 	.container {
 		width: 100%;
 	}
